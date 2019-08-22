@@ -1,0 +1,314 @@
+header{
+	background-color:#12412A;
+	color:white;
+}
+
+div.brand
+{
+	display:inline-flex;	
+}
+
+div.brand img{
+	width: 49px;
+    height: 43px;
+}	
+
+div.brand .loginbutton
+{
+	display:none;
+}
+	
+.brandname{
+	margin-top:10px;
+	font-weight:bold;
+	font-size:1.5em;
+}
+
+#navbarlinks ul {
+	padding-left:70px;
+}
+#navbarlinks ul li{
+	padding:0px 30px;	
+}
+
+#navbarlinks ul li.loginbutton a
+{
+	color:#fff;
+}
+
+ul.navrightlinks li{
+	display:inline-block;
+}
+
+a.nav-link{
+	color:#fff !important;
+}
+
+select{
+	margin-bottom:20px !important;
+	padding:0;
+}
+
+input[type=text] {
+  width: 100%;    
+  border-radius: 0;
+  -webkit-transition: 0.5s;
+  transition: 0.5s; 
+  margin-bottom:40px;
+}
+
+button {
+	color:white;
+	background-color:#007C16;
+}
+
+footer{
+    background: #174b30;	
+}
+
+h3
+{
+	color:#666;
+}
+
+.personalheading{	
+	font-weight:normal;
+}
+
+div.footercontent{
+	background-repeat: no-repeat;
+	background-position: left -50px bottom 30px;
+	background-size: 383px 342px;
+	padding: 55px 0 55px 0;
+	text-align: center;
+}
+
+ul.termslinks
+{
+	padding:-25px 20px 20px 20px;	
+}
+
+ul.termslinks li
+{
+	display: inline-block;
+	margin: 0 auto 20px auto;
+	padding: 20px 10px 20px 0px;
+}	
+
+hr.footersep
+{
+	border: solid 0.5px #5bd453; 
+	width:45%;	
+}
+
+ul.termslinks li a
+{
+	color:#fff;
+}
+
+ul.social {
+	display: inline-block;
+	margin: 0;
+	padding: 0;	
+}
+
+ul.social > li {
+	display: inline-block;
+	margin-right: 21px;
+	border-radius: 50%;
+	border-color: #008a00;
+}
+
+ul.social > li > a {
+	  text-decoration: none;	  
+	  border-color: #008a00;
+	  color:#fff;
+}
+
+ul.social > li > a:hover {
+  text-decoration: none;
+  background-color: #ee7c22;
+  padding: 20px;
+}
+
+.footertitle
+{	
+	font-size: 29px;
+	font-size: 1.7rem;
+	margin: 0 auto 20px auto;
+	line-height: 1.0;
+	color: white;	
+}
+
+.contactlink
+{
+	color: #5bd453;    
+	margin-left: 10px;
+}
+
+main{
+	margin:15px;
+	padding:15px;
+}
+
+.btn-cancel
+{
+	margin-right:20px;		
+}
+
+input.textwithhelp
+{
+	width:90% !important;
+}
+
+.questionmark a
+{
+	color:#008a00;	
+	margin-top:-30px;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+/* Styles */
+	
+	div.brand
+	{
+		width:80%;			
+	}
+	
+	div.brand .loginbutton
+	{
+		display: inline-block;
+		margin: 15px 0px 0px 60px;
+	}
+	
+	div.brand a
+	{	
+		color:#fff !important;
+	}	
+	
+	#navbarlinks ul {
+		padding-left:0px;
+	}
+	
+	ul.navrightlinks li
+	{
+		display:block;
+	}
+	
+	ul.navrightlinks li.loginbutton
+	{
+		display:none;
+	}	
+	
+	.personalheading{
+		text-align:center;
+		font-weight:normal;
+	}	
+	
+	input[type=text] {	  
+	  margin-bottom:30px;
+	}
+
+	div.footercontent{
+		background-size: 318px 283px;
+		background-position: center bottom -22px;
+		padding: 53px 15px 180px 15px;
+	}
+	
+	.productapplied
+	{
+		margin-top:30px;		
+	}
+	.product
+	{
+		text-align:center;
+	}
+	
+	.seemorecoverage
+	{
+		width:100% !important;
+	}
+
+	ul.termslinks
+	{
+		padding:0;
+	}
+
+	ul.termslinks li
+	{
+		display: block;
+		margin: 0 auto 10px auto;
+		padding: 0;
+	}
+	
+	hr.footersep
+	{
+		border: solid 0.5px #5bd453; 
+		width:65%;	
+	}	
+	
+}
+
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+/* Styles */
+
+	div.brand
+	{
+		width:90%;			
+	}
+	
+	#navbarlinks ul {
+		padding-left:0px;
+	}
+	
+	ul.navrightlinks li
+	{
+		display:block;
+	}
+	
+	ul.termslinks
+	{
+		padding:0;
+	}
+
+	ul.termslinks li
+	{
+		display: block;
+		margin: 0 auto 10px auto;
+		padding: 0;
+	}
+}
+
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+/* Styles */
+	ul.termslinks
+	{
+		padding:0;
+	}
+
+	ul.termslinks li
+	{
+		display: block;
+		margin: 0 auto 10px auto;
+		padding: 0;
+	}
+}
+
+/* Desktops and laptops ----------- */
+@media only screen  and (min-width : 1224px) {
+/* Styles */
+	footer
+	{
+		position:fixed;
+		width:100%;
+		bottom:0;
+		left:0;
+	}
+}
+
+
+
