@@ -1,4 +1,4 @@
-# TDTechTest
+# TD Technical Test
 
 <b>Project Scope:</b> This project is created as part of TD's Technical Test to create responsive web page from two images specified.
 
